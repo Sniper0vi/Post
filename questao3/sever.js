@@ -8,7 +8,7 @@ app.post('/login', (req, res) => {
     try {
         const {login} = req.body
 
-        if (login.usuario != "João Pedro" || login.senha != "12345") {
+        if (login.usuario != "Vinicius" || login.senha != "1234578") {
             return res.status(401).json({errorMessage: `Usuário ou Senha Incorretos!`});
         }
         
